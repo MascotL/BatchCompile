@@ -28,7 +28,7 @@ for %%F in ("%source_folder%\*.cpp") do (
     echo.
 )
 
-rem 循环体编译c++
+rem 循环体编译c
 for %%F in ("%source_folder%\*.c") do (
     set "source_file=%%~dpnxF"
     set "output_file=%%~dpnF.exe"
